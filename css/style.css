@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 50%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    color: #77777c;
+    font-family: "Rock Salt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c112d;
+}
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0c112d;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+ul {
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #77777c;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+.sharkPic {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #77777c;
+    border-radius: 200px;
+}
